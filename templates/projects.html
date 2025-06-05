@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Projects</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .hero-section {
+            background-image: url('https://media.istockphoto.com/id/1411195926/photo/project-manager-working-on-laptop-and-updating-tasks-and-milestones-progress-planning-with.jpg?s=1024x1024&w=is&k=20&c=s8RW3X1fOgFhpBb_4-CVlAo_ZnR2HJnM-zoVWf9sWkM=');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 8px #000;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        .project-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .project-card h3 {
+            color: #0077cc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 Projects by Greeshma</h1>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/projects">Projects</a> |
+            <a href="/blog">Blog</a> |
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <h2>Explore My Creative Projects</h2>
+    </div>
+
+    <main>
+        <section>
+            <div class="project-card">
+                <h3>🌐 Interactive Portfolio</h3>
+                <p>A Flask web app showcasing my work and skills with a responsive layout and dynamic content.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>📝 Blog Application</h3>
+                <p>A blogging platform built using Flask and Markdown, with admin features for easy content management.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>📊 Skill Tracker</h3>
+                <p>A personal dashboard using Chart.js that tracks my learning progress in real-time.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+

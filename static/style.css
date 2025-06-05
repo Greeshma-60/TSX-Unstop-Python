@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* light gray */
+    margin: 20px;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #ffd700;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #333;
+}
